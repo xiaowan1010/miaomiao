@@ -18,7 +18,7 @@ export default {
     component: () => import('@/components/Search')
   },
   {
-    path: '/movie', //找不到路由默认走这个路径
+    path: '/movie', //若是这个路由则用下面这个路由
     redirect: '/movie/nowPlaying'
   }
 ]
