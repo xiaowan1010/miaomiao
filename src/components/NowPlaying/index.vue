@@ -1,11 +1,11 @@
 <template>
-    <div class=""></div>
+  <div id="main"></div>
 </template>
 
 <script>
 export default {
-    name: 'nowPlaying'
-}
+  name: "nowPlaying",
+};
 </script>
 
 <style lang="scss" scoped>
